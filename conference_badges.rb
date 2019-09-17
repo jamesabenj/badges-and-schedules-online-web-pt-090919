@@ -30,9 +30,7 @@ def printer(batch_badge_creator, assign_rooms)
   end
   
   assign_rooms.each do |assignments|
-    counter = 0
   puts assign_rooms[counter]
-  counter += 1
   end
   
 end
