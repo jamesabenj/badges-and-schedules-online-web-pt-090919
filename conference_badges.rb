@@ -21,11 +21,12 @@ def assign_rooms(array)
   return new_array
 end
 
-def printer(array)
-  counter = 0
-  array.each do |name|
-  puts batch_badge_creator[counter]
-  puts assign_rooms[cou
+def printer(attendees)
+  attendees.each do |name|
+  puts batch_badge_creator(name)
+end
+attendees.each do |name|
+  puts assign_rooms(name)
 end
   
 end
