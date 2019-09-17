@@ -25,8 +25,7 @@ def printer(array)
   counter = 0
   array.each do |name|
   puts batch_badge_creator[counter]
-  puts assign_rooms[counter]
-  counter += 1
+  puts assign_rooms[cou
 end
   
 end
