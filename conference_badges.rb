@@ -24,11 +24,11 @@ end
 def printer(batch_badge_creator(array), assign_rooms(array))
   
   batch_badge_creator(array).each do |badges|
-  puts  batch_badge_creator[badges]
+  puts  badges
   end
   
   assign_rooms(array).each do |assignments|
-  puts assign_rooms[assignments]
+  puts assignments
   end
   
 end
