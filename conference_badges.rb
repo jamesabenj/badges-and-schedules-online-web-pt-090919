@@ -21,7 +21,7 @@ def assign_rooms(array)
   return new_array
 end
 
-def printer(batch_badge_creator, assign_rooms)
+def printer(batch_badge_creator(array), assign_rooms(array))
   
   batch_badge_creator.each do |badges|
   puts  batch_badge_creator[counter]
