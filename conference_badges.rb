@@ -21,13 +21,13 @@ def assign_rooms(array)
   return new_array
 end
 
-def printer(batch_badge_creator, assign_rooms)
+def printer(array, batch_badge_creator, assign_rooms)
   
-  batch_badge_creator.each do |badges|
+  batch_badge_creator(array).each do |badges|
   puts  batch_badge_creator[counter]
   end
   
-  assign_rooms.each do |assignments|
+  assign_rooms(array).each do |assignments|
   puts assign_rooms[counter]
   end
   
